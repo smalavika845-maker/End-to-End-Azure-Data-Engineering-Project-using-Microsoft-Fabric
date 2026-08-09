@@ -367,25 +367,18 @@ This extends the project beyond traditional reporting into **automated event mon
 │
 ├── 📁 Data Factory
 │   └── News API Ingestion Pipeline
+|   └── manifest.json
 │
-├── 📁 OneLake
-│   └── Raw JSON News Data
+├── 📁 Notebooks
+│   └── Data transformation.ipynb
+|   └── news-sentiment-analysis.ipynb
 │
-├── 📁 Synapse Data Engineering
-│   ├── Data Transformation Notebook
-│   └── Sentiment Analysis Notebook
+├── 📁 screenshots
+│   ├── Activator.png
+│   └── dashboard.png
 │
-├── 📁 Delta Tables
-│   ├── Raw / Transformed News Data
-│   └── Sentiment Analysis Data
-│
-├── 📁 Power BI
-│   └── News Sentiment Analytics Dashboard
-│
-└── 📁 Fabric Activator
-    ├── Positive Sentiment Alert
-    ├── Neutral Sentiment Alert
-    └── Negative Sentiment Alert
+├── 📁 README.md
+
 ```
 
 ---
