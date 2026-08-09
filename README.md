@@ -251,37 +251,36 @@ The dashboard provides an overview of the news data and sentiment trends.
 
 ## 📊 Dashboard Features
 
-- Total number of news articles
+- Published date drop-down
 - Positive sentiment percentage
 - Neutral sentiment percentage
 - Negative sentiment percentage
-- Sentiment distribution
-- Sentiment trends over time
-- Top news sources
-- News categories
-- Publication dates
-- Keywords
-- Latest news articles
-- Interactive date filtering
+- Articles specific to each date in a tabular format
 
 ### Dashboard Structure
 
 ```text
-┌─────────────────────────────────────────────┐
-│          NEWS SENTIMENT ANALYTICS           │
-├─────────────────────────────────────────────┤
-│              Date Filter                    │
-├────────────┬──────────┬──────────┬──────────┤
-│   Total    │ Positive │ Neutral  │ Negative │
-│  Articles  │    %     │    %     │    %     │
-├───────────────────────┬─────────────────────┤
-│ Sentiment Over Time   │ Sentiment           │
-│                       │ Distribution        │
-├───────────────────────┼─────────────────────┤
-│ Top News Sources      │ Categories          │
-├───────────────────────┴─────────────────────┤
-│                 Latest News                 │
-└─────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│                  NEWS SENTIMENT ANALYTICS                    │
+│          Daily news coverage, sentiment and source insights  │
+│                                                              │
+├───────────────────┬────────────────┬────────────────┬────────┤
+│ Published Date    │ Negative       │ Neutral        │Positive│
+│                   │ Sentiment %    │ Sentiment %    │Sentiment│
+│   [Date Filter]   │                │                │   %    │
+├───────────────────┴────────────────┴────────────────┴────────┤
+│                                                              │
+│                    NEWS ARTICLE TABLE                        │
+│                                                              │
+│ Title │ Source │ Link │ Keywords │ Published Date            │
+│                                                              │
+│ Article 1 │ Source │ 🔗 │ Keywords │ Date                    │
+│ Article 2 │ Source │ 🔗 │ Keywords │ Date                    │
+│ Article 3 │ Source │ 🔗 │ Keywords │ Date                    │
+│ Article 4 │ Source │ 🔗 │ Keywords │ Date                    │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ---
