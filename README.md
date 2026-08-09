@@ -80,16 +80,16 @@ The API endpoint follows this structure:
 
 The API returns news information in JSON format, including fields such as:
 
-- Article title
+- title
 - Description
 - Category
+- link
 - Source
 - Country
 - Authors
 - Keywords
-- Publication date
-- Article link
-- Image information
+- Published date
+
 
 > **Security Note:** The API key is intentionally not included in this README. API credentials should be stored securely using Fabric parameters, secrets, or another secure credential mechanism.
 
@@ -184,8 +184,6 @@ country
 authors
 keywords
 published_date
-published_ts
-published_date_formatted
 ```
 
 ---
@@ -421,13 +419,6 @@ This allows Power BI to analyze news across multiple publication dates.
 
 ---
 
-## Duplicate Prevention
-
-Using the article link as the matching key helps identify articles that have already been processed.
-
-This prevents repeated ingestion of the same article from creating unnecessary duplicate records.
-
----
 
 ## Date Transformation
 
