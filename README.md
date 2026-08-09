@@ -363,7 +363,7 @@ This extends the project beyond traditional reporting into **automated event mon
 # 📂 Project Components
 
 ```text
-📁 Microsoft Fabric Workspace
+📁 End-to-End-Azure-Data-Engineering-Project-using-Microsoft-Fabric
 │
 ├── 📁 Data Factory
 │   └── News API Ingestion Pipeline
