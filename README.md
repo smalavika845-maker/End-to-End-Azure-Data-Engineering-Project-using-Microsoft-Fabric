@@ -366,7 +366,7 @@ This extends the project beyond traditional reporting into **automated event mon
 📁 End-to-End-Azure-Data-Engineering-Project-using-Microsoft-Fabric
 │
 ├── 📁 Data Factory
-│   └── News API Ingestion Pipeline
+│   └── data_ingestion_pipeline.json
 |   └── manifest.json
 │
 ├── 📁 Notebooks
