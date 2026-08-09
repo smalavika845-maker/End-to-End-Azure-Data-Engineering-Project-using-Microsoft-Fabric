@@ -377,7 +377,7 @@ This extends the project beyond traditional reporting into **automated event mon
 │   ├── Activator.png
 │   └── dashboard.png
 │
-├── 📁 README.md
+📄 README.md
 
 ```
 
